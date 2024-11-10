@@ -1,0 +1,22 @@
+/*/css/*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* More specific selector to remove background image */
+.gsc-input-box input.gsc-input {
+    background: none !important; /* Removes background image */
+}
+/* Hide Google branding clickable link */
+.gcsc-branding-clickable {
+    display: none !important;
+}
+
+/* Hide the footer with ID cse-footer */
+#cse-footer {
+    display: none !important;
+}
+     /* Add any necessary styles here */
+ .gsc-control-cse {
+     font-family: Arial, sans-serif;
+ }
